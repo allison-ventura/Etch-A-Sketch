@@ -1,0 +1,38 @@
+html {
+    text-align: center;
+    font-family: Monaco;
+  }
+  .page{
+    padding-top: 30px;
+  }
+  .center {
+    float: center;
+   }
+  
+  .left {
+    display: inline-block;
+  }
+  
+  .square {
+    background-color: #a6acaf;
+    border: 1px solid  #fdfefe ;
+    border-radius: 15px;
+  }
+  
+  .color {
+    background-color:#48c9b0;
+    border: 1px solid #48c9b0;
+    border-radius: 15px;
+  }
+  
+  .gridContainer {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    /* border: 5px solid black; */
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+  }
